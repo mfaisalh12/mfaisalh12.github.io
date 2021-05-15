@@ -489,69 +489,81 @@ form {
         width: 100%;
         padding: 0;
     }
-    @media (max-width: 700px) {
-        .container {
-            padding: 3%;
-        }
-        #nav ul{
-            display: none;
-        }
-        #home {
-            padding: 345px 0 0;
-        }
-        #home .profile_info .profile_name,
-        #about h1,
-        .skill-head,
-        #projects h1,
-        .contact-header {
-            font-size: 1.5em;
-        }
-        #home .profile_info h3  {
-            font-size: 1em;
-        }
-        #home .profile_info p {
-            font-size: 0.8em;
-            line-height: 1.5em;
-        }
-        #home .profile_info .btn {
-            font-size: 0.8em;
-        }
-        #home .profile_info .icon {
-            font-size: 1.2em;   
-        }
-        #home .profile_img img {
-            top: 20%;
-            left: 45%;
-            transform: translate(-45%,-20%);
-            width: 17em; 
-        }
-        #about {
-            padding: 20% 7% 18%;
-        }
-        .skill-box .box {
-            width: 8em;
-            height: 8em;
-        }
-        .skill-box .box i {
-            padding-top: 12px;
-            font-size: 3em;
-        }
-        .skill-box .box p {
-            font-size: 0.8em;
-        }
-        #projects {
-            padding: 15% 7%;
-        }
-        .header-item h3 {
-            font-size: 0.9em;
-        }
-        .header-item p {
-            font-size: 0.8em;
-            bottom: 0;
-        }
-        #contact {
-            padding: 10% 7%;
-        }
+}
+@media (max-width: 700px) {
+    .container {
+        padding: 3%;
+    }
+    #nav ul{
+        display: none;
+    }
+    #home {
+        padding: 345px 0 0;
+    }
+    #home .profile_info .profile_name,
+    #about h1,
+    .skill-head,
+    #projects h1,
+    .contact-header {
+        font-size: 1.5em;
+    }
+    #home .profile_info h3  {
+        font-size: 1em;
+    }
+    #home .profile_info p {
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    #home .profile_info .btn {
+        font-size: 0.8em;
+    }
+    #home .profile_info .icon {
+        font-size: 1.2em;   
+    }
+    #home .profile_img img {
+        top: 20%;
+        left: 45%;
+        transform: translate(-45%,-20%);
+        width: 17em; 
+    }
+    #about {
+        padding: 20% 7% 18%;
+    }
+    .skill-box .box {
+        width: 8em;
+        height: 8em;
+    }
+    .skill-box .box i {
+        padding-top: 12px;
+        font-size: 3em;
+    }
+    .skill-box .box p {
+        font-size: 0.8em;
+    }
+    #projects {
+        padding: 15% 7%;
+    }
+    .header-item h3 {
+        font-size: 0.9em;
+    }
+    .header-item p {
+        font-size: 0.8em;
+        bottom: 0;
+    }
+    #contact {
+        padding: 10% 7%;
     }
 }
-    
+
+
+@media (max-width: 360px) {
+    #about p {
+        padding: 1% 7%;
+    }
+    .skill-box .box {
+        margin: 0.8em 0.6em;
+    }
+    form {
+        padding: 6% 12% 12%;
+    }
+}
