@@ -490,6 +490,9 @@ form {
         padding: 0;
     }
     @media (max-width: 700px) {
+        .container {
+            padding: 3%;
+        }
         #nav ul{
             display: none;
         }
