@@ -297,8 +297,8 @@ body {
     width: 100%;
 }
 
-.header-item h1 {
-    position: absolute;
+.header-item h3 {
+    position: relative;
     left: 0;
 }
 .header-item p {
@@ -522,11 +522,12 @@ form {
             width: 14em;
             height: 11em;
         }
-    }
-    @media (max-width: 450px) {
-
-        form {
-            padding: 8% 13%;
+        .header-item h3 {
+            font-size: 0.9em;
+        }
+        .header-item p {
+            font-size: 0.8em;
+            bottom: 0;
         }
     }
 }
