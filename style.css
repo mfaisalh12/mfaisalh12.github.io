@@ -142,7 +142,7 @@ body {
 }
 
 #home .profile_info .icon {
-    margin-top: 70px;
+    margin: 8% 0 0 0;
     font-size: 1.8em;
 }
 
@@ -456,6 +456,10 @@ form {
     }
     #home::after {
         display: none;
+    }
+    #home .profile_info .icon a{
+       margin-right: 0;
+       padding: 0 2.5%;
     }
     #about p {
         font-size: 1em;
