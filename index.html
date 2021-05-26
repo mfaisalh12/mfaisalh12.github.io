@@ -43,7 +43,7 @@
             <h1 class="profile_name">Muhammad Faisal Hidayatullah</h1>
             <p>Student at <span class="primary-color">Telkom university</span> <br>
                 Bachelor Of Computer Engineering</p>
-            <a href="https://drive.google.com/file/d/1eniITK5nvGVTwJteWl3JLLDHrvPpTiYt/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/13eWhMmuwQVT5lyecx7zwhzpOvcPUEadH/view?usp=sharing"
                 class="btn">Resume</a>
             <div class="icon">
                 <a href="https://www.instagram.com/mfaisalhidayatullah22/"><i class="fab fa-instagram"></i></a>
@@ -139,13 +139,14 @@
         </div>
     </section>
 
-    <section id="contact" class="container">
+    <section id="contact" class="container contact_form">
         <div class="row">
             <div class="col">
                 <h1 class="contact-header">Contact <span class="primary-color">Me</span></h1>
             </div>
             <div class="col contact-form">
-                <form action="">
+                <div id="error_message"></div>
+                <form action="" method="POST">
                     <label for="name">Name :</label>
                     <input type="text" id="name" class="input-form">
 
@@ -163,8 +164,6 @@
     <section id="footer">
         <p>Built With <span class="primary-color">Love</span> by Faisal</p>
     </section>
-
-
 
     <!-- Owl Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -194,6 +193,10 @@
         })
         html
     </script>
+
+    <!-- contact form -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

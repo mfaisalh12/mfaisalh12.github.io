@@ -371,6 +371,17 @@ body {
     padding-right: 8.5%;
 }
 
+/* #error_message {
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+    background: #fe8b8e;
+    color: var(--bg);
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+} */
+
 form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: left;
