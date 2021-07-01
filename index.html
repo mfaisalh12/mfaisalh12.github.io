@@ -99,64 +99,60 @@
 
     <section id="projects" class="container text-center">
         <h1>Projects</h1>
-        <!-- Slideshow container -->
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <div class="header-item">
-                    <h3>Asuh Sepuh</h3>
-                    <p><span class="primary-color">Website</span></p>
-                </div>
-                <img src="assets/portfolio/asuhsepuh.png" alt="Asuh Sepuh">
-            </div>
-            <div class="item">
-                <div class="header-item">
-                    <h3>Bimbel Online</h3>
-                    <p><span class="primary-color">UI/UX</span></p>
-                </div>
-                <img src="assets/portfolio/bimbelonline.png" alt="Bimbel Online">
-            </div>
-            <div class="item">
-                <div class="header-item">
-                    <h3>Konversi Angka</h3>
-                    <p><span class="primary-color">Website</span></p>
-                </div>
-                <img src="assets/portfolio/convert.png" alt="Konversi Angka">
-            </div>
-            <div class="item">
-                <div class="header-item">
-                    <h3>Peminjaman Buku Perpus</h3>
-                    <p><span class="primary-color">Apps Desktop</span></p>
-                </div>
-                <img src="assets/portfolio/pythonperpus.png" alt="Peminjaman Buku">
-            </div>
-            <div class="item">
-                <div class="header-item">
-                    <h3>Tumbas</h3>
-                    <p><span class="primary-color">UI/UX</span></p>
-                </div>
-                <img src="assets/portfolio/tumbas.png" alt="Tumbas UI">
-            </div>
-        </div>
     </section>
 
-    <section id="contact" class="container contact_form">
-        <div class="row">
-            <div class="col">
-                <h1 class="contact-header">Contact <span class="primary-color">Me</span></h1>
+    <section id="certificates" class="container">
+        <h1 class="certificate-head text-center">Certificates</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="row">
+                <div class="col text-certificate">
+                    <h1 class="title-certificate">Membangun Line Front-end Framework (LIFF)</h1>
+                    <p class="publisher">Dicoding Indonesia</p>
+                    <a href="" class="credential">See Credential</a>
+                </div>
+                <div class="col">
+                    <img src="assets/certificates/liff.png" alt="LIFF">
+                </div>
             </div>
-            <div class="col contact-form">
-                <div id="error_message"></div>
-                <form action="" method="POST">
-                    <label for="name">Name :</label>
-                    <input type="text" id="name" class="input-form">
-
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" class="input-form">
-
-                    <label for="message">Message :</label>
-                    <textarea name="message" id="message" class="input-form"></textarea>
-                    <input type="submit" value="send" class="submit">
-                </form>
+            <div class="row">
+                <div class="col text-certificate">
+                    <h1 class="title-certificate">Membangun LINE Chatbot</h1>
+                    <p class="publisher">Dicoding Indonesia</p>
+                    <a href="" class="credential">See Credential</a>
+                </div>
+                <div class="col">
+                    <img src="assets/certificates/chatbot.png" alt="Line Chatbot">
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col text-certificate">
+                    <h1 class="title-certificate">Dasar Pemrograman Javascript</h1>
+                    <p class="publisher">Dicoding Indonesia</p>
+                    <a href="" class="credential">See Credential</a>
+                </div>
+                <div class="col">
+                    <img src="assets/certificates/dasar-js.png" alt="Javascript Dasar">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-certificate">
+                    <h1 class="title-certificate">Cloud Practitioner Essentials (Belajar Dasar AWS Cloud</h1>
+                    <p class="publisher">Dicoding Indonesia</p>
+                    <a href="" class="credential">See Credential</a>
+                </div>
+                <div class="col">
+                    <img src="assets/certificates/cloud-aws.png" alt="AWS Cloud">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-certificate">
+                    <h1 class="title-certificate">Membuat Aplikasi Back-End untuk Pemula</h1>
+                    <p class="publisher">Dicoding Indonesia</p>
+                    <a href="" class="credential">See Credential</a>
+                </div>
+                <div class="col">
+                    <img src="assets/certificates/apk-back-end.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -176,18 +172,18 @@
         $('.owl-carousel').owlCarousel({
             loop: true,
             margin: 20,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 4000,
-            nav: true,
+            nav: false,
             responsive: {
                 0: {
                     items: 1
                 },
                 600: {
-                    items: 2
+                    items: 1
                 },
                 1000: {
-                    items: 2
+                    items: 1
                 }
             }
         })

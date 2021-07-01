@@ -10,6 +10,7 @@ body {
 	padding: 0;
 	font-family: var(--font);
 	background: var(--bg);
+	font-size: 1em;
 	color: var(--color);
 }
 .primary-color {
@@ -52,11 +53,10 @@ body {
 .logo {
 	position: relative;
 	font-weight: 700;
-	font-size: 1.6em;
+	font-size: 2em;
 }
 
-.logo a,
-#nav a {
+a {
 	text-decoration: none;
 	color: var(--color);
 }
@@ -276,8 +276,7 @@ body {
 .skill-head {
 	font-size: 2.2em;
 }
-
-/* Section Project */
+/* Section Projects */
 #projects {
 	padding-top: 8%;
 }
@@ -285,127 +284,54 @@ body {
 	font-size: 2.2em;
 }
 
-.item {
+/* Section Certificates */
+.certificate-head {
+	font-size: 2.2em;
+}
+.row {
 	box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.7);
 	padding: 2% 6% 5%;
 	background: var(--bg-dark-light);
 }
 
-.header-item {
-	position: relative;
-	display: flex;
-	width: 100%;
-}
-
-.header-item h3 {
-	position: relative;
-	left: 0;
-}
-.header-item p {
-	position: absolute;
-	right: 0;
-}
 /* Customize owl carousel */
-.owl-theme .owl-nav {
-	margin-top: 0;
-	position: absolute;
-	top: 35%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-}
-.owl-carousel .owl-nav button.owl-prev {
-	position: absolute;
-	left: 0;
-	display: block;
-	background: transparent;
-	width: 54px;
-	height: 68px;
-	color: white;
-	font-size: 2em;
-	padding: 16px !important;
-}
-
-.owl-carousel .owl-nav button.owl-next:hover,
-.owl-carousel .owl-nav button.owl-prev:hover {
-	background: rgba(131, 131, 131, 0.7);
-}
-
-.owl-carousel .owl-nav button.owl-next {
-	position: absolute;
-	right: 0;
-	display: block;
-	background: transparent;
-	width: 54px;
-	height: 68px;
-	color: white;
-	font-size: 2em;
-	padding: 16px !important;
-}
-
-.owl-theme .owl-dots {
-	margin-top: 2%;
-}
-
-/* contact section */
-#contact {
-	padding-top: 10%;
-}
 .row {
-	display: flex;
-	justify-content: space-around;
+	padding: 60px;
 }
-
-.contact-header {
-	margin-top: 28%;
-	font-size: 2.5em;
-	font-weight: 500;
+.row::after {
+	content: '';
+	clear: both;
+	display: table;
 }
 .col {
 	width: 50%;
-	text-align: center;
-}
-
-.contact-form {
-	padding-right: 8.5%;
-}
-
-form {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	text-align: left;
-	border-radius: 10px;
-	background: #343940;
-	padding: 40px 65px;
-	line-height: 40px;
-	font-size: 1em;
-}
-
-.input-form {
-	width: 100%;
-	padding: 9px 12px;
-	margin: 8px 0 18px;
-	display: inline-block;
-	border: 2px solid var(--primary-color);
-	background: transparent;
-	color: var(--color);
-	font-size: 16px;
-}
-
-.submit {
-	width: 100%;
+	float: left;
 	padding: 15px;
-	margin-top: 10px;
-	color: var(--bg-dark-light);
-	background: var(--primary-color);
-	border-radius: 8px;
-	border: none;
-	font-size: 1em;
-	font-weight: 700;
-	text-transform: capitalize;
-	cursor: pointer;
+}
+.text-certificate {
+	margin: 7% 0 0;
+	padding: 2%;
+}
+.title-certificate {
+	margin: 0;
+	font-size: 2em;
+	font-weight: 500;
+}
+.publisher {
+	margin: 10px 0 50px;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+.credential {
+	color: #00b2ff;
+	font-size: 300;
 }
 
-.submit:hover {
+.owl-theme .owl-dots .owl-dot span {
+	background: var(--bg-bubble-grey);
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
 	background: var(--bg-bubble-yellow);
 }
 
