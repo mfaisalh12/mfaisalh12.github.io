@@ -284,6 +284,65 @@ a {
 	font-size: 2.2em;
 }
 
+/* Section Project */
+#projects {
+	margin-top: 60px;
+	padding-top: 40px;
+	background: var(--bg-dark-light);
+}
+hr {
+	border-color: var(--primary-color);
+}
+.sect-project {
+	margin: 0;
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+#slideProjectUi,
+#slideProjectWeb {
+	margin-top: 20px;
+}
+.box-p {
+	margin: auto;
+	padding: 5%;
+	flex-wrap: wrap;
+	width: 100%;
+	background: var(--bg);
+}
+.title-project {
+	font-weight: 700;
+	font-size: 1.2em;
+	margin: 1.5em 0;
+}
+.sepuhasuh {
+	color: #2bbfff;
+}
+.conversi {
+	color: #95ff2b;
+}
+.bmi {
+	color: #fa26a0;
+}
+.tumbas {
+	color: #fecf6d;
+}
+.bimbel {
+	color: #68e5ff;
+}
+.coffee {
+	color: #9b7e7e;
+}
+.icon-project {
+	margin: 0 2%;
+}
+.icon-project:hover {
+	color: var(--primary-color);
+}
+#ui {
+	margin: 4em 0;
+}
+
 /* Section Certificates */
 .certificate-head {
 	font-size: 2.2em;
