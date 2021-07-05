@@ -21,6 +21,9 @@
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Style -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -39,69 +42,82 @@
 
     <section id="home" class="container">
         <div class="profile_info">
-            <h3>Web Developer</h3>
-            <h1 class="profile_name">Muhammad Faisal Hidayatullah</h1>
-            <p>Student at <span class="primary-color">Telkom university</span> <br>
+            <h3 data-aos="fade-right" data-aos-delay="100">Web Developer</h3>
+            <h1 class="profile_name" data-aos="fade-right" data-aos-delay="150">Muhammad Faisal Hidayatullah</h1>
+            <p data-aos="fade-right" data-aos-delay="200">Student at <span class="primary-color">Telkom
+                    University</span> <br>
                 Bachelor Of Computer Engineering</p>
-            <a href="https://drive.google.com/file/d/13eWhMmuwQVT5lyecx7zwhzpOvcPUEadH/view?usp=sharing"
-                class="btn">Resume</a>
+            <div data-aos="fade-right" data-aos-delay="250">
+                <a href="https://drive.google.com/file/d/13eWhMmuwQVT5lyecx7zwhzpOvcPUEadH/view?usp=sharing" class="btn"
+                    data-aos="fade-right">Resume</a>
+            </div>
             <div class="icon">
-                <a href="https://www.instagram.com/mfaisalhidayatullah22/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/mfaisalh2429/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://medium.com/@mfaisalhidayatullah"><i class="fab fa-medium-m"></i></a>
-                <a href="https://github.com/mfaisalh12"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/mfaisalhidayatullah22/"><i class="fab fa-instagram"
+                        data-aos="fade-right" data-aos-delay="300"></i></a>
+                <a href="https://www.linkedin.com/in/mfaisalh2429/"><i class="fab fa-linkedin-in" data-aos="fade-right"
+                        data-aos-delay="350"></i></a>
+                <a href="https://medium.com/@mfaisalhidayatullah"><i class="fab fa-medium-m" data-aos="fade-right"
+                        data-aos-delay="400"></i></a>
+                <a href="https://github.com/mfaisalh12"><i class="fab fa-github" data-aos="fade-right"
+                        data-aos-delay="450"></i></a>
             </div>
         </div>
-        <div class="profile_img">
+        <div class="profile_img" data-aos="fade-left" data-aos-delay="200">
             <img src="foto.png" alt="Faisal Photo">
         </div>
 
     </section>
 
     <section id="about" class="container text-center">
-        <h1>About <span class="primary-color">Me</span></h1>
-        <p>Hello! My name is Muhammad Faisal Hidayatullah. I'm a student at Telkom University,
+        <h1 data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000">About
+            <span class="primary-color">Me</span>
+        </h1>
+        <p data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000">
+            Hello! My name is
+            Muhammad Faisal
+            Hidayatullah. I'm a student at
+            Telkom University,
             majoring in Bachelor of Computer Engineering.
             I learned in the Web Development field for about 1 year. I have diverse set of skill,
             ranging from UI/UX, to Frontend & Backend</p>
     </section>
 
     <section id="skills" class="container text-center">
-        <h1 class="skill-head">Skills</h1>
+        <h1 class="skill-head" data-aos="fade-down">Skills</h1>
         <div class="skill-box">
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
                 <i class="fab fa-html5 fa-4x"></i>
                 <p>HTML</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
                 <i class="fab fa-css3-alt fa-4x"></i>
                 <p>CSS</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
                 <i class="fab fa-js-square fa-4x"></i>
                 <p>Javascript</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
                 <i class="fab fa-python fa-4x"></i>
                 <p>Python</p>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
                 <i class="fab fa-php fa-4x"></i>
                 <p>PHP</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-delay="600" data-aos-duration="1000">
                 <i class="fab fa-figma fa-4x"></i>
                 <p>Figma</p>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="container text-center">
-        <h1>Projects</h1>
+    <section id="projects" class="container text-center" data-aos="fade-up">
+        <h1 data-aos="fade-up">Projects</h1>
         <div>
-            <p class="sect-project">Website</p>
-            <hr>
+            <p class="sect-project" data-aos="fade-right" data-aos-delay="100">Website</p>
+            <hr data-aos="fade-right" data-aos-delay="150">
             <div class="owl-carousel owl-theme" id="slideProjectWeb">
                 <div class="box-p">
                     <img src="assets/portfolio/asuhsepuh.png" alt="">
@@ -128,8 +144,8 @@
             </div>
         </div>
         <div id="ui">
-            <p class="sect-project">UI/UX</p>
-            <hr>
+            <p class="sect-project" data-aos="fade-right" data-aos-delay="100">UI/UX</p>
+            <hr data-aos="fade-right" data-aos-delay="150">
             <div class="owl-carousel owl-theme" id="slideProjectUi">
                 <div class="box-p">
                     <img src="assets/portfolio/tumbas.png" alt="">
@@ -154,8 +170,10 @@
     </section>
 
     <section id="certificates" class="container">
-        <h1 class="certificate-head text-center">Certificates</h1>
-        <div class="owl-carousel owl-theme" id="slideCertificate">
+        <h1 class="certificate-head text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            Certificates</h1>
+        <div class="owl-carousel owl-theme" id="slideCertificate" data-aos="fade-up" data-aos-delay="200"
+            data-aos-duration="1000">
             <div class="row">
                 <div class="col text-certificate">
                     <h1 class="title-certificate">Membangun Line Front-end Framework (LIFF)</h1>
@@ -189,7 +207,7 @@
                     <img src="assets/certificates/web.png" alt="Web Dasar">
                 </div>
             </div>
-            <div class=" row">
+            <div class="row">
                 <div class="col text-certificate">
                     <h1 class="title-certificate">Dasar Pemrograman Javascript</h1>
                     <p class="publisher">Dicoding Indonesia</p>
@@ -226,7 +244,7 @@
     </section>
 
     <section id="footer">
-        <p>Built With <span class="primary-color">Love</span> by Faisal</p>
+        <p>Built With <span class="primary-color"><i class="fas fa-heart"></i></span> by Faisal</p>
     </section>
 
     <!-- Owl Carousel -->
@@ -237,6 +255,14 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
 
 </body>
 
