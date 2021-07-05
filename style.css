@@ -484,14 +484,17 @@ hr {
 	#home {
 		padding: 345px 0 0;
 	}
+
 	#home .profile_info .profile_name,
 	#about h1,
 	.skill-head,
 	#projects h1,
-	.contact-header {
+	.certificate-head,
+	.title-certificate {
 		font-size: 1.5em;
 	}
-	#home .profile_info h3 {
+	.publisher,
+	.credential #home .profile_info h3 {
 		font-size: 1em;
 	}
 	#home .profile_info p {
@@ -525,7 +528,7 @@ hr {
 		font-size: 0.8em;
 	}
 	#projects {
-		padding: 15% 7%;
+		padding: 7%;
 	}
 	.header-item h3 {
 		font-size: 0.9em;
@@ -534,8 +537,14 @@ hr {
 		font-size: 0.8em;
 		bottom: 0;
 	}
-	#contact {
-		padding: 10% 7%;
+	.row {
+		padding: 7% 10%;
+	}
+	.text-certificate {
+		margin-top: 0;
+	}
+	.publisher {
+		margin-bottom: 6%;
 	}
 }
 
@@ -548,5 +557,15 @@ hr {
 	}
 	form {
 		padding: 6% 12% 12%;
+	}
+	.title-certificate {
+		font-size: 1.25em;
+	}
+	.publisher,
+	.credential {
+		font-size: 1em;
+	}
+	.owl-dots {
+		margin-top: 0 !important;
 	}
 }
