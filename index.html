@@ -1,264 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faisal</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Boxicon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- My Style -->
-    <link rel="stylesheet" href="style.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/main.css">
+
+    <!-- icon -->
+    <link rel="icon" href="assets/images/logo.png" style="border-radius: 50px;">
+    <title>Portfolio-Home</title>
 </head>
 
 <body>
-    <section id="nav" class="container">
-        <h1 class="logo"><a href="#home"><span class="primary-color">M</span>aish</a></h1>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certificates">Certificates</a></li>
-        </ul>
-    </section>
+    <section id="main">
 
-    <section id="home" class="container">
-        <div class="profile_info">
-            <h3>Web Developer</h3>
-            <h1 class="profile_name">Muhammad Faisal Hidayatullah</h1>
-            <p>Student at <span class="primary-color">Telkom
-                    University</span> <br>
-                Bachelor Of Computer Engineering</p>
+        <div class="container-fluid">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <i class='bx bxs-sun' id="dark-mode" style='color:#ff9234' onclick="setDarkMode()"></i>
+                </li>
+            </ul>
 
-            <a href="https://drive.google.com/file/d/13eWhMmuwQVT5lyecx7zwhzpOvcPUEadH/view?usp=sharing"
-                class="btn">Resume</a>
-
-            <div class="icon">
-                <a href="https://www.instagram.com/mfaisalhidayatullah22/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/mfaisalh2429/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://medium.com/@mfaisalhidayatullah"><i class="fab fa-medium-m"></i></a>
-                <a href="https://github.com/mfaisalh12"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-        <div class="profile_img">
-            <img src="foto.png" alt="Faisal Photo">
-        </div>
-
-    </section>
-
-    <section id="about" class="container text-center">
-        <h1 data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000">About
-            <span class="primary-color">Me</span>
-        </h1>
-        <p data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000">
-            Hello! My name is
-            Muhammad Faisal
-            Hidayatullah. I'm a student at
-            Telkom University,
-            majoring in Bachelor of Computer Engineering.
-            I learned in the Web Development field for about 1 year. I have diverse set of skill,
-            ranging from UI/UX, to Frontend & Backend</p>
-    </section>
-
-    <section id="skills" class="container text-center">
-        <h1 class="skill-head" data-aos="fade-down">Skills</h1>
-        <div class="skill-box">
-            <div class="box" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
-                <i class="fab fa-html5 fa-4x"></i>
-                <p>HTML</p>
-            </div>
-            <div class="box" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
-                <i class="fab fa-css3-alt fa-4x"></i>
-                <p>CSS</p>
-            </div>
-            <div class="box" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
-                <i class="fab fa-js-square fa-4x"></i>
-                <p>Javascript</p>
-            </div>
-            <div class="box" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
-                <i class="fab fa-python fa-4x"></i>
-                <p>Python</p>
-            </div>
-
-            <div class="box" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
-                <i class="fab fa-php fa-4x"></i>
-                <p>PHP</p>
-            </div>
-            <div class="box" data-aos="flip-left" data-aos-delay="600" data-aos-duration="1000">
-                <i class="fab fa-figma fa-4x"></i>
-                <p>Figma</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="container text-center" data-aos="fade-up">
-        <h1 data-aos="fade-up">Projects</h1>
-        <div>
-            <p class="sect-project" data-aos="fade-right" data-aos-delay="100">Website</p>
-            <hr data-aos="fade-right" data-aos-delay="150">
-            <div class="owl-carousel owl-theme" id="slideProjectWeb">
-                <div class="box-p">
-                    <img src="assets/portfolio/asuhsepuh.png" alt="">
-                    <p class="title-project">Sepuh <span class="sepuhasuh">Asuh</span></p>
-                    <a href="https://github.com/mfaisalh12/sepuh-asuh.git" class="icon-project"><i
-                            class="fab fa-github fa-2x"></i></a>
-                </div>
-                <div class="box-p">
-                    <img src="assets/portfolio/convert.png" alt="">
-                    <p class="title-project">Konversi <span class="conversi">Angka</span></p>
-                    <a href="https://github.com/mfaisalh12/number-convertion.git" class="icon-project"><i
-                            class="fab fa-github fa-2x"></i></a>
-                    <a href="https://mfaisalh12.github.io/number-convertion/" class="icon-project"><i
-                            class="fas fa-globe fa-2x"></i></a>
-                </div>
-                <div class="box-p">
-                    <img src="assets/portfolio/bmi.png" alt="">
-                    <p class="title-project">BMI <span class="bmi">Calculator</span></p>
-                    <a href="https://github.com/mfaisalh12/bmi-calculator-frontend.git" class="icon-project"><i
-                            class="fab fa-github fa-2x"></i></a>
-                    <a href="https://mfaisalh12.github.io/bmi-calculator-frontend/" class="icon-project"><i
-                            class="fas fa-globe fa-2x"></i></a>
-                </div>
-            </div>
-        </div>
-        <div id="ui">
-            <p class="sect-project" data-aos="fade-right" data-aos-delay="100">UI/UX</p>
-            <hr data-aos="fade-right" data-aos-delay="150">
-            <div class="owl-carousel owl-theme" id="slideProjectUi">
-                <div class="box-p">
-                    <img src="assets/portfolio/tumbas.png" alt="">
-                    <p class="title-project">LandingPage <span class="tumbas">Tumbas</span></p>
-                    <a href="https://www.figma.com/file/axNWzbSCpg29MLSXqvkAqN/Design-Toko-Perabotan"
-                        class="icon-project"><i class="fab fa-figma fa-2x"></i></i></a>
-                </div>
-                <div class="box-p">
-                    <img src="assets/portfolio/bimbel.png" alt="">
-                    <p class="title-project">Bimbel <span class="bimbel">Online</span></p>
-                    <a href="https://www.figma.com/file/KfDoX29t0IeZuOKs7fnlhj/Bimbel-Online?node-id=0%3A1"
-                        class="icon-project"><i class="fab fa-figma fa-2x"></i></i></a>
-                </div>
-                <div class="box-p">
-                    <img src="assets/portfolio/coffee.png" alt="">
-                    <p class="title-project">Coffee <span class="coffee">Shop</span></p>
-                    <a href="https://www.figma.com/file/NyQDFJVDZzR2A9fnbmdRXr/Coffee-Shop-UI" class="icon-project"><i
-                            class="fab fa-figma fa-2x"></i></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="certificates" class="container">
-        <h1 class="certificate-head text-center">
-            Certificates</h1>
-        <div class="owl-carousel owl-theme" id="slideCertificate">
             <div class="row">
-                <div class="col text-certificate">
-                    <h1 class="title-certificate">Membangun Line Front-end Framework (LIFF)</h1>
-                    <p class="publisher">Dicoding Indonesia</p>
-                    <a href="https://drive.google.com/file/d/1T-bQJsmdqMheq7XGgICpA35yqXMezc_c/view?usp=sharing"
-                        class="credential" target="_blank">See Sertificate</a>
+                <div class="col-lg-8 col-sm-12 order-2 order-lg-1 title-text">
+                    <h4 class="greeting">Hi, my name is</h4>
+                    <h1 class="big-heading">Muhammad Faisal Hidayatullah</h1>
+                    <h3 class="sub-title">And I'm a <span class="blue">Front-End Developer</span></h3> <br>
+                    <div class="d-flex flex-wrap justify-content-between pe-5 title-button">
+                        <button type="button" class="btn btn-primary btn-lg">
+                            Download CV
+                        </button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-see-details" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            See details >
+                        </button>
+                    </div>
+
                 </div>
-                <div class="col">
-                    <img src="assets/certificates/liff.png" alt="LIFF">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-certificate">
-                    <h1 class="title-certificate">Membangun LINE Chatbot</h1>
-                    <p class="publisher">Dicoding Indonesia</p>
-                    <a href="https://drive.google.com/file/d/1ivi4mTZzfLhbiVMbCu0QppwGC1i1iQo_/view?usp=sharing"
-                        class="credential" target="_blank">See Sertificate</a>
-                </div>
-                <div class="col">
-                    <img src="assets/certificates/chatbot.png" alt="Line Chatbot">
-                </div>
-            </div>
-            <div class=" row">
-                <div class="col text-certificate">
-                    <h1 class="title-certificate">Dasar Pemrograman Web</h1>
-                    <p class="publisher">Dicoding Indonesia</p>
-                    <a href="https://drive.google.com/file/d/1okQmIUmaHti2i_lF47eaKSEy1fm_htwJ/view?usp=sharing"
-                        class="credential" target="_blank">See Sertificate</a>
-                </div>
-                <div class="col">
-                    <img src="assets/certificates/web.png" alt="Web Dasar">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-certificate">
-                    <h1 class="title-certificate">Dasar Pemrograman Javascript</h1>
-                    <p class="publisher">Dicoding Indonesia</p>
-                    <a href="https://drive.google.com/file/d/14VdWQPouLFvzO2n0Ig70TuxVO2Dhr-Z-/view?usp=sharing"
-                        class="credential" target="_blank">See Sertificate</a>
-                </div>
-                <div class="col">
-                    <img src="assets/certificates/dasar-js.png" alt="Javascript Dasar">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-certificate">
-                    <h1 class="title-certificate">Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</h1>
-                    <p class="publisher">Dicoding Indonesia</p>
-                    <a href="https://drive.google.com/file/d/1R9w96YyBigsK5z7jmsUYNqRlkA5CQ2eX/view?usp=sharing"
-                        class="credential" target="_blank">See Sertificate</a>
-                </div>
-                <div class="col">
-                    <img src="assets/certificates/cloud-aws.png" alt="AWS Cloud">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-certificate">
-                    <h1 class="title-certificate">Membuat Aplikasi Back-End untuk Pemula</h1>
-                    <p class="publisher">Dicoding Indonesia</p>
-                    <a href="https://drive.google.com/file/d/1eNjvj-7UdahCuC8_zjraYI_PyH2f4hFK/view?usp=sharing"
-                        class="credential" target="_blank">See Sertificate</a>
-                </div>
-                <div class="col">
-                    <img src="assets/certificates/apk-back-end.png" alt="">
+                <div class="col-lg-4 col-sm-12 order-1 order-lg-2">
+                    <img class="title-image" src="assets/images/profile.png" alt="Faisal">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="footer">
-        <p>Built With <span class="primary-color"><i class="fas fa-heart"></i></span> by Faisal</p>
-    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">My Profile</h5>
+                    <button type="button" class="btn btnClose" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Owl Carousel -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+
+    <!-- Toggle -->
+
+    <div class="toggle active" id="toggle">
+        <div class="box first">
+            <a href="#" class="links btn btn-outline-primary btn-rounded first">
+                <p>Home</p>
+            </a>
+        </div>
+        <div class="box second">
+            <a href="#" class="links btn btn-outline-warning btn-rounded second ">
+                <p>Skills</p>
+            </a>
+        </div>
+        <div class="box third">
+            <i class='bx bxs-category' id="icon"></i>
+            <a href="#" class="links btn btn-outline-orange btn-rounded third">
+                <p>Projects</p>
+            </a>
+        </div>
+        <div class="box fourth">
+            <a href="#" class="links btn btn-outline-danger btn-rounded second ">
+                <p>Sertifications</p>
+            </a>
+        </div>
+        <div class="box fifth">
+            <a href="#" class="links btn btn-outline-tosca btn-rounded first">
+                <p>Contact Me</p>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({
-            once: true,
-        });
-    </script>
+        // Toggle Menu
+        const toggle = document.getElementById("toggle");
+        const icon = document.getElementById("icon");
+        const links = document.querySelectorAll(".links");
 
+        icon.addEventListener("click", (e) => {
+            toggle.classList.toggle("active");
+
+        });
+        links.forEach((e) => {
+            e.addEventListener("click", () => {
+                toggle.classList.toggle("active");
+            })
+        });
+
+        // Dark Mode
+        if (localStorage.getItem('theme') == 'dark')
+            setDarkMode();
+
+        function setDarkMode() {
+            let darkIcon = '';
+            let isDark = document.body.classList.toggle("dark-theme");
+
+            if (isDark) {
+                darkIcon = 'bx bxs-moon';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                darkIcon = 'bx bxs-sun'
+                localStorage.removeItem('theme');
+            }
+            document.getElementById("dark-mode").className = darkIcon;
+        }
+    </script>
 </body>
 
 </html>
