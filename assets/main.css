@@ -7,6 +7,7 @@
 	--orange-hover: #e1802c;
 	--red: #d92027;
 	--tosca: #35d0ba;
+	--tosca-hover: #2daa99;
 	--dark-bg: #252a34;
 	--secondary-color: #1d1d1d;
 	--grey-text: #777777;
@@ -54,6 +55,15 @@
 }
 .btn-orange:hover {
 	background: var(--orange-hover);
+}
+.btn-tosca {
+	background: var(--tosca);
+	color: var(--white);
+	border: none;
+}
+.btn-tosca:hover {
+	background: var(--tosca-hover);
+	color: var(--white);
 }
 .btn-outline-primary {
 	border-color: var(--blue);
@@ -134,6 +144,9 @@
 body,
 html {
 	height: 100%;
+}
+body {
+	background: var(--primary-color);
 }
 .container-fluid {
 	padding: 7% 12%;
@@ -296,7 +309,7 @@ h1 {
 	border: none;
 }
 .nav-tabs .nav-link:hover {
-	color: var(--white);
+	color: var(--secondary-color);
 }
 .tab-content {
 	box-shadow: 0px 0px 8px 0 var(--box-shadow-card);
@@ -325,6 +338,31 @@ h1 {
 }
 .see-details {
 	color: var(--blue);
+}
+
+/* --------- Contact Page ---------- */
+#socmed div a {
+	margin-right: 10px;
+	transition: transform 0.3s;
+}
+#socmed div a:hover {
+	margin-right: 10px;
+	transform: scale(1.12);
+}
+#socmed div i {
+	font-size: 22px;
+	border-radius: 50%;
+	padding: 5px;
+	color: var(--white);
+}
+#socmed div .bxl-instagram {
+	background: #da1c4a;
+}
+#socmed div .bxl-linkedin {
+	background: #0a66c2;
+}
+#socmed div .bxl-discord-alt {
+	background: #5662f6;
 }
 
 @media only screen and (max-width: 600px) {

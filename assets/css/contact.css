@@ -1,0 +1,42 @@
+.toggle {
+	border: 1px solid var(--tosca);
+	box-shadow: 0 0 0 5px var(--primary-color), 0 0 0 6.8px var(--tosca);
+}
+.toggle .box .bxs-category {
+	color: var(--tosca);
+}
+.container-fluid {
+	padding: 7% 16%;
+	height: 100%;
+}
+.card {
+	width: 100%;
+	padding: 0px;
+}
+.contact-img {
+	padding: 0 9%;
+}
+#contact-img {
+	width: 100%;
+}
+.title-contact {
+	font-weight: 700;
+	margin-bottom: 7%;
+}
+
+@media only screen and (max-width: 900px) {
+	.tab-content {
+		padding: 4px !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.row {
+		margin: 0;
+	}
+	#main {
+		height: auto;
+	}
+	#contact-img {
+		margin-bottom: 50px;
+	}
+}
