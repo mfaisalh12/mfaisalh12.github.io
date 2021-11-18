@@ -364,6 +364,9 @@ h1 {
 #socmed div .bxl-discord-alt {
 	background: #5662f6;
 }
+#socmed p {
+	color: var(--grey-text);
+}
 
 @media only screen and (max-width: 600px) {
 	/* --------- toggle ---------- */
