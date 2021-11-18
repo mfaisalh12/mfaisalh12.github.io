@@ -4,12 +4,14 @@
 	--blue-hover: #03a5b4;
 	--yellow: #ffcd3c;
 	--orange: #ff9234;
+	--orange-hover: #e1802c;
 	--red: #d92027;
 	--tosca: #35d0ba;
 	--dark-bg: #252a34;
 	--secondary-color: #1d1d1d;
 	--grey-text: #777777;
 	--grey-line: #6c757d;
+	--white: #ffffff;
 	--primary-color: #ffffff;
 	--box-shadow-card: rgb(0, 0, 0, 0.15);
 }
@@ -44,6 +46,14 @@
 }
 .btn-primary:hover {
 	background: var(--blue-hover);
+}
+.btn-orange {
+	background: var(--orange);
+	color: var(--primary-color);
+	border: none;
+}
+.btn-orange:hover {
+	background: var(--orange-hover);
 }
 .btn-outline-primary {
 	border-color: var(--blue);
@@ -273,6 +283,42 @@ h1 {
 }
 .skill-box i {
 	font-size: 60px;
+}
+
+/* --------- Projects Page ---------- */
+.nav-link {
+	color: var(--orange);
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: var(--orange);
+	color: var(--white);
+	border: none;
+}
+.nav-tabs .nav-link:hover {
+	color: var(--white);
+}
+.tab-content {
+	box-shadow: 0px 0px 8px 0 var(--box-shadow-card);
+}
+.nav-tabs {
+	border-bottom: none;
+}
+.icon-projects {
+	font-size: 28px;
+	color: var(--secondary-color);
+	transition: transform 0.6s ease;
+}
+.icon-projects:hover {
+	color: var(--orange);
+	transform: rotate(20deg);
+}
+.owl-theme .owl-dots .owl-dot span {
+	background: var(--grey-text);
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: var(--orange);
 }
 
 @media only screen and (max-width: 600px) {

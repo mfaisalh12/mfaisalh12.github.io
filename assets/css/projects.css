@@ -1,0 +1,35 @@
+.toggle {
+	border: 1px solid var(--orange);
+	box-shadow: 0 0 0 5px var(--primary-color), 0 0 0 6.8px var(--orange);
+}
+.toggle .box .bxs-category {
+	color: var(--orange);
+}
+.container-fluid {
+	padding: 6% 8%;
+	height: 100%;
+}
+.card {
+	width: 90%;
+	padding: 0px;
+}
+.h4-title {
+	font-weight: 700;
+}
+.see-details {
+	color: var(--blue);
+}
+
+@media only screen and (max-width: 900px) {
+	.container-fluid {
+		padding: 20% 8%;
+		height: 100%;
+	}
+	.tab-content {
+		padding: 4px !important;
+	}
+	.toggle {
+		top: 92% !important;
+		margin-top: -60px; /* Negative half of height. */
+	}
+}
