@@ -320,6 +320,12 @@ h1 {
 .owl-theme .owl-dots .owl-dot:hover span {
 	background: var(--orange);
 }
+.h4-title {
+	font-weight: 700;
+}
+.see-details {
+	color: var(--blue);
+}
 
 @media only screen and (max-width: 600px) {
 	/* --------- toggle ---------- */

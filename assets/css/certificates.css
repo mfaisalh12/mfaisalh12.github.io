@@ -1,0 +1,70 @@
+.toggle {
+	border: 1px solid var(--red);
+	box-shadow: 0 0 0 5px var(--primary-color), 0 0 0 6.8px var(--red);
+}
+.toggle .box .bxs-category {
+	color: var(--red);
+}
+.container-fluid {
+	padding: 7% 8%;
+	height: 100%;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: var(--red);
+}
+.icon-projects:hover {
+	color: var(--red);
+}
+.nav-link {
+	color: var(--red);
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: var(--red);
+}
+.row {
+	margin: 0;
+}
+.time {
+	color: var(--grey-text);
+}
+
+@media only screen and (max-width: 900px) {
+	.container-fluid {
+		padding: 20% 8%;
+		height: 100%;
+	}
+	.tab-content {
+		padding: 4px !important;
+	}
+	.toggle {
+		top: 92% !important;
+		margin-top: -60px; /* Negative half of height. */
+	}
+}
+@media only screen and (max-width: 600px) {
+	.tab-pane {
+		padding: 12px !important;
+	}
+	.row {
+		text-align: center;
+	}
+	.row .col-sm-12 {
+		padding: 0 !important;
+	}
+	.title-certif {
+		font-size: 22px;
+	}
+	.company {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.time {
+		font-size: 14px;
+	}
+	.credentials {
+		font-size: 14px;
+		font-weight: 300;
+	}
+}
