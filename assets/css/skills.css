@@ -1,0 +1,18 @@
+.toggle {
+	border: 1px solid var(--yellow);
+	box-shadow: 0 0 0 5px var(--primary-color), 0 0 0 6.8px var(--yellow);
+}
+.toggle .box .bxs-category {
+	color: var(--yellow);
+}
+
+.container-fluid {
+	padding: 1.5% 8%;
+	height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+	#main {
+		height: auto;
+	}
+}
